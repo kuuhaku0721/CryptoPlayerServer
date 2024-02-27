@@ -5,3 +5,6 @@ Client_QtWindows/VideoPlayer/.vs/
 Client_QtWindows/VideoPlayer/debug/
 Client_QtWindows/VideoPlayer/release/
 Client_QtWindows/VideoPlayer/VideoPlayer.pro.user
+Server_Linux/EPlayerServer/.vs/
+Server_Linux/EPlayerServer/EPlayerServer/obj/
+Server_Linux/EPlayerServer/EPlayerServer/bin/
