@@ -80,9 +80,11 @@ void QMediaPlayer::set_title_text(const QString& /*title*/)
 {
 }
 
-/*void QMediaPlayer::paintEvent(QPaintEvent* /*event* /)
+/*
+void QMediaPlayer::paintEvent(QPaintEvent* event)
 {
-}*/
+}
+*/
 
 void QMediaPlayer::open(const QUrl& path)
 {
