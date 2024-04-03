@@ -248,7 +248,11 @@ bool LoginForm::check_login(const QString& user, const QString& pwd)
     url += "salt=" + salt + "&";
     url += "user=" + user + "&";
     url += "sign=" + sign;
-    //qDebug() << url;
+
+    qDebug() << "---------------";
+    qDebug().nospace() << "---------------" << url;
+    qDebug() << "---------------";
+
     request.setUrl(QUrl(url)); //发送请求的url，服务端那边接收到数据是以url的json数据接收的
     record->config()["password"] = ui->pwdEdit->text(); //设置配置文件信息
     record->config()["user"] = ui->nameEdit->text();
